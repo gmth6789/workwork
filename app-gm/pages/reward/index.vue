@@ -55,7 +55,7 @@
   export default {
     mounted(){
       liff.init({
-        liffId: 'ใส่ลิปไอดี'
+        liffId: '1660755023-ywWIxxDL'
       }).then(() => {
         if(liff.isLoggedIn()){
           liff.getProfile().then(profile => {
